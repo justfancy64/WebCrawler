@@ -1,0 +1,22 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "basic webcrawler in js",
+  "main": "node main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "author": "justfancy64",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "29.6.2"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.1"
+  }
+}
